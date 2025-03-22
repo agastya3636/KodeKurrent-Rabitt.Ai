@@ -1,0 +1,62 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #50394c;
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.navbar-heading {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    left: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.nav-item a:visited {
+    color: white;
+}
+
+/* Move 'Team Teachies' to the right */
+.team-name {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    margin-right:10px;
+    position: relative;
+    right: 20px;
+    /* Align to the right */
+}
