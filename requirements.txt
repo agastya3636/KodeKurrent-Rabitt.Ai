@@ -1,0 +1,12 @@
+streamlit
+torch
+transformers==4.47.0
+pylatexenc
+qwen_vl_utils
+bitsandbytes
+pandas
+Pillow
+tqdm
+matplotlib
+torchvision
+accelerate
